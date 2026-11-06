@@ -1,0 +1,22 @@
+{
+  "name": "technical-talk-india-documentary",
+  "version": "1.0.0",
+  "description": "Webb Just Revealed a Terrifying Cosmic Cat's Head - 8 minute Three.js/WebGL documentary for Technical Talk India",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "audio": "python3 scripts/synth-audio.py && python3 scripts/generate-narration.py && bash scripts/audio-mixer.sh",
+    "subtitles": "node scripts/generate-subtitles.js",
+    "validate": "node scripts/validate.js",
+    "preview": "node scripts/render.js --format 1080p --start 0 --end 4 --out build/preview.mp4",
+    "render:4k": "node scripts/render.js --format 4k",
+    "render:1080p": "node scripts/render.js --format 1080p",
+    "render:shorts": "node scripts/render.js --format shorts"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.11.1",
+    "three": "^0.170.0"
+  },
+  "engines": { "node": ">=20" }
+}

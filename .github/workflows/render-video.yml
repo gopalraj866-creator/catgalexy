@@ -1,0 +1,149 @@
+name: Render documentary
+
+on:
+  workflow_dispatch:
+    inputs:
+      format:
+        description: "Output format"
+        type: choice
+        required: true
+        default: 1080p
+        options: ["4K", "1080p", "Shorts"]
+      quality:
+        description: "Volumetric quality (high = best, slowest)"
+        type: choice
+        default: high
+        options: [high, medium, low]
+      chunk_seconds:
+        description: "Seconds of video per parallel job (0 = automatic: 10 s for 1080p/Shorts, 5 s for 4K)"
+        default: "0"
+      max_parallel:
+        description: "Concurrent render jobs"
+        default: "20"
+      regenerate_audio:
+        description: "Re-synthesise music/SFX before mixing (narration is committed, not regenerated)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: render-${{ github.ref }}-${{ inputs.format }}
+  cancel-in-progress: true
+
+env:
+  FMT: ${{ inputs.format == '4K' && '4k' || (inputs.format == 'Shorts' && 'shorts' || '1080p') }}
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.p.outputs.matrix }}
+      fmt: ${{ steps.p.outputs.fmt }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: Validate project
+        run: node scripts/validate.js || true
+      - id: p
+        name: Build chunk matrix
+        run: |
+          set -euo pipefail
+          CS="${{ inputs.chunk_seconds }}"
+          if [ "$CS" = "0" ]; then if [ "$FMT" = "4k" ]; then CS=5; else CS=10; fi; fi
+          echo "::notice::format=$FMT quality=${{ inputs.quality }} chunk=${CS}s"
+          M=$(node scripts/render.js --plan --format "$FMT" --chunk-seconds "$CS")
+          echo "matrix={\"include\":$M}" >> "$GITHUB_OUTPUT"
+          echo "fmt=$FMT" >> "$GITHUB_OUTPUT"
+          echo "::notice::$(echo "$M" | node -e 'console.log(JSON.parse(require("fs").readFileSync(0)).length)') chunks"
+
+  audio:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg + numpy
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg python3-numpy
+      - name: Re-synthesise music and SFX (optional)
+        if: ${{ inputs.regenerate_audio }}
+        run: python3 scripts/synth-audio.py
+      - name: Mix (ducking, loudnorm -16 LUFS / -1.5 dBTP, AAC 48 kHz stereo)
+        run: bash scripts/audio-mixer.sh
+      - uses: actions/upload-artifact@v4
+        with: { name: audio-mix, path: build/audio/mix.m4a, retention-days: 3 }
+
+  render:
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: ${{ fromJSON(inputs.max_parallel) }}
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - name: Install FFmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Install Chrome (software WebGL via SwiftShader, no GPU needed)
+        id: chrome
+        uses: browser-actions/setup-chrome@v1
+        with: { chrome-version: stable }
+      - run: npm ci
+      - name: Render chunk ${{ matrix.name }} (${{ matrix.start }}s - ${{ matrix.end }}s)
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: |
+          set -euo pipefail
+          mkdir -p build/chunks
+          node scripts/render.js --format "$FMT" --quality "${{ inputs.quality }}" \
+            --start ${{ matrix.start }} --end ${{ matrix.end }} --out "build/chunks/chunk_${{ matrix.name }}.mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.name }}
+          path: build/chunks/chunk_${{ matrix.name }}.mp4
+          retention-days: 2
+
+  assemble:
+    needs: [plan, render, audio]
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-*
+          path: chunks
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with: { name: audio-mix, path: audio_mix }
+      - name: Concatenate chunks (stream copy) and mux audio
+        run: |
+          set -euo pipefail
+          FMT="${{ needs.plan.outputs.fmt }}"
+          ls chunks | sort | sed "s|^|file 'chunks/|; s|$|'|" > list.txt
+          echo "::group::chunk list"; cat list.txt; echo "::endgroup::"
+          ffmpeg -y -loglevel error -f concat -safe 0 -i list.txt -c copy video_only.tmp.mp4
+          ffmpeg -y -loglevel error -i video_only.tmp.mp4 -i audio_mix/mix.m4a -map 0:v:0 -map 1:a:0 \
+            -c:v copy -c:a copy -movflags +faststart -shortest "webb_cats_head_${FMT}.tmp.mp4"
+          mv "webb_cats_head_${FMT}.tmp.mp4" "webb_cats_head_${FMT}.mp4"
+      - name: Verify output
+        run: |
+          set -euo pipefail
+          F="webb_cats_head_${{ needs.plan.outputs.fmt }}.mp4"
+          ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate,sample_rate,channels,duration -of default=nw=1 "$F"
+          D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$F")
+          awk -v d="$D" 'BEGIN{ if (d<479.5 || d>480.6) { print "bad duration " d; exit 1 } }'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: webb-cats-head-${{ needs.plan.outputs.fmt }}
+          path: |
+            webb_cats_head_*.mp4
+            subtitles/subtitles.srt
+            audio/narration/narration.wav
+            audio/narration/narration.mp3
+            audio/music/background_music.mp3
+          retention-days: 14

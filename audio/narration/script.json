@@ -1,0 +1,344 @@
+{
+  "title": "Webb Just Revealed a Terrifying Cosmic Cat's Head",
+  "channel": "Technical Talk India",
+  "voice": "bm_george",
+  "lang": "en-gb",
+  "speed": 0.97,
+  "total_duration": 480,
+  "lead_in": 0.9,
+  "sentence_gap": 0.24,
+  "syntax": "{spoken|shown} lets the TTS read one form while subtitles display another.",
+  "acts": [
+    {
+      "id": "hook",
+      "title": "Cinematic hook",
+      "start": 0,
+      "segments": [
+        {
+          "id": "h1",
+          "scene": "hook",
+          "pause": 0.7,
+          "text": "{Seven and a half thousand|7,500} light-years away, something is staring back at us."
+        },
+        {
+          "id": "h2",
+          "scene": "hook",
+          "pause": 0.8,
+          "text": "It has a head. Two pointed ears. And a single glowing eye."
+        },
+        {
+          "id": "h3",
+          "scene": "hook",
+          "pause": 0.4,
+          "text": "And the James Webb Space Telescope has just shown us what it really is."
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "title": "The mystery",
+      "start": 20,
+      "segments": [
+        {
+          "id": "i1",
+          "scene": "carina",
+          "pause": 0.5,
+          "text": "On October {twenty-ninth|29th}, {twenty twenty-six|2026}, NASA and {E S A|ESA} released a new image from two of the greatest telescopes ever built. Hubble and Webb, looking at the very same patch of sky."
+        },
+        {
+          "id": "i2",
+          "scene": "carina",
+          "pause": 0.5,
+          "text": "Astronomers nicknamed it the Cat's Head Nebula. And once you see the cat, you can't unsee it."
+        },
+        {
+          "id": "i3",
+          "scene": "carina",
+          "pause": 0.5,
+          "text": "A dark, narrow pillar of dust. A head turned aside. A tail trailing down. And that eye."
+        },
+        {
+          "id": "i4",
+          "scene": "carina",
+          "pause": 0.2,
+          "text": "But this is no monster. It's something far stranger: a snapshot of stars being born, and of the forces tearing their birthplace apart."
+        }
+      ]
+    },
+    {
+      "id": "background",
+      "title": "Scientific background",
+      "start": 60,
+      "segments": [
+        {
+          "id": "b1",
+          "scene": "carina2",
+          "pause": 0.3,
+          "text": "First, where is it? The cat lives inside the Carina Nebula, about {seven and a half thousand|7,500} light-years away, in the southern constellation Carina, the Keel."
+        },
+        {
+          "id": "b2",
+          "scene": "carina2",
+          "pause": 0.3,
+          "text": "The nebula is roughly {three hundred|300} light-years across, and home to at least a dozen stars {fifty to a hundred|50 to 100} times the mass of our Sun."
+        },
+        {
+          "id": "b3",
+          "scene": "starbirth",
+          "pause": 0.3,
+          "text": "Here's the key idea. Stars form inside cold clouds of gas and dust. Gravity pulls clumps together, until a new star switches on."
+        },
+        {
+          "id": "b4",
+          "scene": "starbirth",
+          "pause": 0.3,
+          "text": "But the hottest, most massive stars don't just shine. They blast out intense ultraviolet radiation and powerful winds."
+        },
+        {
+          "id": "b5",
+          "scene": "starbirth",
+          "pause": 0.3,
+          "text": "That radiation heats nearby gas until it literally evaporates. Astronomers call it photoevaporation."
+        },
+        {
+          "id": "b6",
+          "scene": "starbirth",
+          "pause": 0.3,
+          "text": "Thin gas vanishes quickly. Denser clumps resist longer. What's left are pillars, sculpted by light."
+        },
+        {
+          "id": "t1",
+          "scene": "telescopes",
+          "pause": 0.3,
+          "text": "To see this scene properly, we need two kinds of vision. In visible light, dust is the problem. Tiny grains scatter and absorb it, so thick dust looks like a black wall."
+        },
+        {
+          "id": "t3",
+          "scene": "dustdemo",
+          "pause": 0.3,
+          "text": "Webb is built for infrared. Longer wavelengths slip past many of those grains, so Webb can see where Hubble can't."
+        },
+        {
+          "id": "t4",
+          "scene": "dustdemo",
+          "pause": 0.3,
+          "text": "Near-infrared looks through the thinner dust. Mid-infrared sees the dust itself, glowing with warmth."
+        },
+        {
+          "id": "t5",
+          "scene": "dustdemo",
+          "pause": 0.2,
+          "text": "Three views. Three ways of seeing the same cat."
+        }
+      ]
+    },
+    {
+      "id": "main",
+      "title": "The discovery in 3D",
+      "start": 150,
+      "segments": [
+        {
+          "id": "m1",
+          "scene": "hubbleview",
+          "pause": 0.5,
+          "text": "Start with Hubble. In visible light, the cat is almost completely opaque: a dark brown pillar of dust, blocking everything behind it."
+        },
+        {
+          "id": "m2",
+          "scene": "hubbleview",
+          "pause": 0.5,
+          "text": "Along its right edge runs a faint, hazy yellow rim. That's gas lit up and ionised by ultraviolet light from nearby massive stars. It's consistent with photoevaporation in action. The cat's skin is being stripped away."
+        },
+        {
+          "id": "m3",
+          "scene": "hubbleview",
+          "pause": 0.5,
+          "text": "And the glowing red eye? Astronomers think it may be a young star, still partly buried in dust."
+        },
+        {
+          "id": "m4",
+          "scene": "hubbleview",
+          "pause": 0.5,
+          "text": "Hubble's filters pick out light from oxygen, hydrogen and sulfur. That's why the background shifts from blue and cyan at the top, to yellow, orange and red toward the bottom. It's a map of hot, excited gas."
+        },
+        {
+          "id": "m5",
+          "scene": "nircamview",
+          "pause": 0.6,
+          "text": "Now switch to Webb's near-infrared camera. Watch what happens to the dust."
+        },
+        {
+          "id": "m6",
+          "scene": "nircamview",
+          "pause": 0.5,
+          "text": "The pillar becomes more transparent. Its complex surface structure appears. And around it, a dense scattering of stars, shown in blue and yellow."
+        },
+        {
+          "id": "m7",
+          "scene": "nircamview",
+          "pause": 0.5,
+          "text": "Even a few faint background galaxies show up, seen partly through our own Milky Way."
+        },
+        {
+          "id": "m8",
+          "scene": "nircamview",
+          "pause": 0.5,
+          "text": "And the eye? Still there. Still conspicuous, even in infrared."
+        },
+        {
+          "id": "m9",
+          "scene": "miriview",
+          "pause": 0.5,
+          "text": "Then comes mid-infrared, from Webb's {Miri|MIRI} instrument. Now we're not looking through the dust. We're looking at the dust."
+        },
+        {
+          "id": "m10",
+          "scene": "miriview",
+          "pause": 0.5,
+          "text": "Warm grains and carbon-based molecules glow, outlining delicate globules and strands on the cat's left side. Fragile structures, exposed to radiation from nearby massive stars."
+        },
+        {
+          "id": "m11",
+          "scene": "miriview",
+          "pause": 0.4,
+          "text": "The filament turns bluish gray. The background glows red. And the eye turns white. Those colours are assigned, by the way: {Miri|MIRI}'s filters at {seven point seven|7.7}, {eleven|11} and {fifteen|15} micrometres are mapped to blue, green and red."
+        }
+      ]
+    },
+    {
+      "id": "details",
+      "title": "Fascinating details",
+      "start": 270,
+      "segments": [
+        {
+          "id": "d1",
+          "scene": "eye",
+          "pause": 0.6,
+          "text": "So let's zoom in on that eye."
+        },
+        {
+          "id": "d2",
+          "scene": "eye",
+          "pause": 0.5,
+          "text": "If it is a young star, it's an infant. Stars like this form when a dense knot of gas collapses under its own gravity, wrapped in a cocoon of dust that hides the newborn from visible light."
+        },
+        {
+          "id": "d3",
+          "scene": "eye",
+          "pause": 0.5,
+          "text": "In Webb's mid-infrared image, just to the right of the pillar, there's another bright source. Yellow, against a reddish glow. It's likely an infant star too, embedded in dust."
+        },
+        {
+          "id": "d4",
+          "scene": "eye",
+          "pause": 0.5,
+          "text": "A narrow filament seems to cross right over it. Are the two connected? Honestly, the image alone can't tell us. That's exactly the kind of question astronomers will chase next."
+        },
+        {
+          "id": "d5",
+          "scene": "jet",
+          "pause": 0.5,
+          "text": "There's another puzzle near the cat's belly. In Webb's near-infrared image, there's a faint, jet-like feature. It could be gas blasted out by a young star. Or it could be something else. Its origin is uncertain."
+        },
+        {
+          "id": "d6",
+          "scene": "jet",
+          "pause": 0.6,
+          "text": "And that uncertainty is what makes this image so valuable. It isn't just beautiful. It's a catalogue of open questions."
+        },
+        {
+          "id": "d7",
+          "scene": "galaxymap",
+          "pause": 0.5,
+          "text": "One quick warning: this is not the Cat's Paw Nebula, which Webb imaged last year. That one sits in Scorpius, roughly {four thousand|4,000} light-years away. The Cat's Head is in Carina, nearly twice as far."
+        },
+        {
+          "id": "d8",
+          "scene": "scale",
+          "pause": 0.5,
+          "text": "And how big is this scene? Hubble's view is about {two point four|2.4} arcminutes across, which works out to around {five and a half|5.5} light-years. Light itself would need five and a half years to cross it."
+        },
+        {
+          "id": "d9",
+          "scene": "scale",
+          "pause": 0.5,
+          "text": "And the light we're seeing left this place about {seven and a half thousand|7,500} years ago. Before the first cities. Before writing. It has been travelling toward us all that time."
+        }
+      ]
+    },
+    {
+      "id": "revelation",
+      "title": "The biggest revelation",
+      "start": 390,
+      "segments": [
+        {
+          "id": "r1",
+          "scene": "erosion",
+          "pause": 0.8,
+          "text": "Now for the part that makes this cat truly haunting."
+        },
+        {
+          "id": "r2",
+          "scene": "erosion",
+          "pause": 1.0,
+          "text": "It isn't permanent."
+        },
+        {
+          "id": "r3",
+          "scene": "erosion",
+          "pause": 0.5,
+          "text": "NASA and {E S A|ESA} are clear about this. The Cat's Head is a temporary scene. The same ultraviolet light and stellar winds that sculpted its shape are still eating away at it."
+        },
+        {
+          "id": "r4",
+          "scene": "erosion",
+          "pause": 0.7,
+          "text": "The denser material inside the pillar resists erosion, at least for now."
+        },
+        {
+          "id": "r5",
+          "scene": "erosion2",
+          "pause": 0.5,
+          "text": "Think about what that means. The massive stars nearby are both sculptor and destroyer. Their radiation helped carve the cat, and it will help dismantle it."
+        },
+        {
+          "id": "r6",
+          "scene": "erosion2",
+          "pause": 0.5,
+          "text": "And yet, inside it, a young star may be quietly switching on. The very cloud that's being destroyed may be the nursery of something new."
+        },
+        {
+          "id": "r7",
+          "scene": "erosion2",
+          "pause": 0.6,
+          "text": "Creation and destruction, side by side, in a shape we happen to read as a face."
+        },
+        {
+          "id": "r8",
+          "scene": "erosion2",
+          "pause": 0.3,
+          "text": "No creature. No monster. Just physics, light, and time. And for one brief astronomical moment, a cat."
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion and call to action",
+      "start": 460,
+      "segments": [
+        {
+          "id": "c1",
+          "scene": "outro",
+          "pause": 0.5,
+          "text": "So the next time someone shows you a face in the stars, remember: it's a star-forming cloud, being pulled apart by light."
+        },
+        {
+          "id": "c2",
+          "scene": "outro",
+          "pause": 0.3,
+          "text": "Subscribe to Technical Talk India, and tell me in the comments: what do you see in this nebula?"
+        }
+      ]
+    }
+  ]
+}

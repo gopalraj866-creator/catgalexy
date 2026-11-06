@@ -1,0 +1,580 @@
+1
+00:00:00,500 --> 00:00:05,386
+7,500 light-years away,
+something is staring back at us.
+
+2
+00:00:05,936 --> 00:00:07,281
+It has a head.
+
+3
+00:00:07,371 --> 00:00:09,035
+Two pointed ears.
+
+4
+00:00:09,125 --> 00:00:11,174
+And a single glowing eye.
+
+5
+00:00:11,824 --> 00:00:16,859
+And the James Webb Space Telescope
+has just shown us what it really is.
+
+6
+00:00:20,900 --> 00:00:22,783
+On October 29th, 2026,
+
+7
+00:00:22,823 --> 00:00:30,053
+NASA and ESA released a new image from
+two of the greatest telescopes ever built.
+
+8
+00:00:30,143 --> 00:00:34,047
+Hubble and Webb, looking at
+the very same patch of sky.
+
+9
+00:00:34,397 --> 00:00:37,939
+Astronomers nicknamed it
+the Cat's Head Nebula.
+
+10
+00:00:38,029 --> 00:00:41,102
+And once you see the
+cat, you can't unsee it.
+
+11
+00:00:41,452 --> 00:00:43,821
+A dark, narrow pillar of dust.
+
+12
+00:00:43,911 --> 00:00:45,789
+A head turned aside.
+
+13
+00:00:45,879 --> 00:00:47,863
+A tail trailing down.
+
+14
+00:00:47,953 --> 00:00:49,234
+And that eye.
+
+15
+00:00:49,584 --> 00:00:51,654
+But this is no monster.
+
+16
+00:00:51,744 --> 00:00:55,591
+It's something far stranger: a
+snapshot of stars being born,
+
+17
+00:00:55,631 --> 00:00:58,955
+and of the forces tearing
+their birthplace apart.
+
+18
+00:01:00,900 --> 00:01:02,607
+First, where is it?
+
+19
+00:01:02,697 --> 00:01:08,076
+The cat lives inside the Carina
+Nebula, about 7,500 light-years away,
+
+20
+00:01:08,116 --> 00:01:11,957
+in the southern constellation
+Carina, the Keel.
+
+21
+00:01:12,107 --> 00:01:15,658
+The nebula is roughly
+300 light-years across,
+
+22
+00:01:15,698 --> 00:01:21,515
+and home to at least a dozen stars
+50 to 100 times the mass of our Sun.
+
+23
+00:01:21,665 --> 00:01:23,650
+Here's the key idea.
+
+24
+00:01:23,740 --> 00:01:27,495
+Stars form inside cold
+clouds of gas and dust.
+
+25
+00:01:27,585 --> 00:01:31,917
+Gravity pulls clumps together,
+until a new star switches on.
+
+26
+00:01:32,067 --> 00:01:35,587
+But the hottest, most massive
+stars don't just shine.
+
+27
+00:01:35,677 --> 00:01:40,969
+They blast out intense ultraviolet
+radiation and powerful winds.
+
+28
+00:01:41,119 --> 00:01:45,898
+That radiation heats nearby gas
+until it literally evaporates.
+
+29
+00:01:45,988 --> 00:01:49,082
+Astronomers call it photoevaporation.
+
+30
+00:01:49,232 --> 00:01:51,601
+Thin gas vanishes quickly.
+
+31
+00:01:51,691 --> 00:01:54,273
+Denser clumps resist longer.
+
+32
+00:01:54,363 --> 00:01:57,457
+What's left are pillars,
+sculpted by light.
+
+33
+00:01:57,607 --> 00:02:01,170
+To see this scene properly,
+we need two kinds of vision.
+
+34
+00:02:01,260 --> 00:02:04,119
+In visible light, dust is the problem.
+
+35
+00:02:04,209 --> 00:02:09,373
+Tiny grains scatter and absorb it, so
+thick dust looks like a black wall.
+
+36
+00:02:09,523 --> 00:02:11,849
+Webb is built for infrared.
+
+37
+00:02:11,939 --> 00:02:15,187
+Longer wavelengths slip
+past many of those grains,
+
+38
+00:02:15,227 --> 00:02:17,678
+so Webb can see where Hubble can't.
+
+39
+00:02:17,828 --> 00:02:21,007
+Near-infrared looks
+through the thinner dust.
+
+40
+00:02:21,097 --> 00:02:25,066
+Mid-infrared sees the dust
+itself, glowing with warmth.
+
+41
+00:02:25,216 --> 00:02:26,497
+Three views.
+
+42
+00:02:26,587 --> 00:02:29,382
+Three ways of seeing the same cat.
+
+43
+00:02:30,900 --> 00:02:32,373
+Start with Hubble.
+
+44
+00:02:32,463 --> 00:02:36,185
+In visible light, the cat
+is almost completely opaque:
+
+45
+00:02:36,225 --> 00:02:40,485
+a dark brown pillar of dust,
+blocking everything behind it.
+
+46
+00:02:40,835 --> 00:02:44,953
+Along its right edge runs
+a faint, hazy yellow rim.
+
+47
+00:02:45,043 --> 00:02:47,491
+That's gas lit up and ionised by
+
+48
+00:02:47,531 --> 00:02:51,102
+ultraviolet light from
+nearby massive stars.
+
+49
+00:02:51,192 --> 00:02:55,011
+It's consistent with
+photoevaporation in action.
+
+50
+00:02:55,101 --> 00:02:57,854
+The cat's skin is being stripped away.
+
+51
+00:02:58,204 --> 00:03:00,295
+And the glowing red eye?
+
+52
+00:03:00,385 --> 00:03:05,207
+Astronomers think it may be a young
+star, still partly buried in dust.
+
+53
+00:03:05,557 --> 00:03:10,379
+Hubble's filters pick out light
+from oxygen, hydrogen and sulfur.
+
+54
+00:03:10,469 --> 00:03:15,254
+That's why the background shifts from
+blue and cyan at the top, to yellow,
+
+55
+00:03:15,294 --> 00:03:17,595
+orange and red toward the bottom.
+
+56
+00:03:17,685 --> 00:03:20,481
+It's a map of hot, excited gas.
+
+57
+00:03:20,831 --> 00:03:24,202
+Now switch to Webb's near-infrared camera.
+
+58
+00:03:24,292 --> 00:03:26,639
+Watch what happens to the dust.
+
+59
+00:03:27,089 --> 00:03:29,842
+The pillar becomes more transparent.
+
+60
+00:03:29,932 --> 00:03:32,599
+Its complex surface structure appears.
+
+61
+00:03:32,689 --> 00:03:37,191
+And around it, a dense scattering
+of stars, shown in blue and yellow.
+
+62
+00:03:37,541 --> 00:03:43,281
+Even a few faint background galaxies show
+up, seen partly through our own Milky Way.
+
+63
+00:03:43,631 --> 00:03:44,826
+And the eye?
+
+64
+00:03:44,916 --> 00:03:46,111
+Still there.
+
+65
+00:03:46,201 --> 00:03:49,295
+Still conspicuous, even in infrared.
+
+66
+00:03:49,645 --> 00:03:53,358
+Then comes mid-infrared,
+from Webb's MIRI instrument.
+
+67
+00:03:53,448 --> 00:03:55,966
+Now we're not looking through the dust.
+
+68
+00:03:56,056 --> 00:03:57,891
+We're looking at the dust.
+
+69
+00:03:58,241 --> 00:04:01,377
+Warm grains and
+carbon-based molecules glow,
+
+70
+00:04:01,417 --> 00:04:06,114
+outlining delicate globules and
+strands on the cat's left side.
+
+71
+00:04:06,204 --> 00:04:11,431
+Fragile structures, exposed to
+radiation from nearby massive stars.
+
+72
+00:04:11,781 --> 00:04:14,299
+The filament turns bluish gray.
+
+73
+00:04:14,389 --> 00:04:16,566
+The background glows red.
+
+74
+00:04:16,656 --> 00:04:18,598
+And the eye turns white.
+
+75
+00:04:18,688 --> 00:04:23,770
+Those colours are assigned, by
+the way: MIRI's filters at 7.7,
+
+76
+00:04:23,810 --> 00:04:28,587
+11 and 15 micrometres are
+mapped to blue, green and red.
+
+77
+00:04:30,900 --> 00:04:33,482
+So let's zoom in on that eye.
+
+78
+00:04:33,932 --> 00:04:36,983
+If it is a young star, it's an infant.
+
+79
+00:04:37,073 --> 00:04:42,239
+Stars like this form when a dense knot
+of gas collapses under its own gravity,
+
+80
+00:04:42,279 --> 00:04:47,101
+wrapped in a cocoon of dust that
+hides the newborn from visible light.
+
+81
+00:04:47,451 --> 00:04:51,134
+In Webb's mid-infrared image,
+just to the right of the pillar,
+
+82
+00:04:51,174 --> 00:04:53,126
+there's another bright source.
+
+83
+00:04:53,216 --> 00:04:55,542
+Yellow, against a reddish glow.
+
+84
+00:04:55,632 --> 00:04:59,323
+It's likely an infant star
+too, embedded in dust.
+
+85
+00:04:59,673 --> 00:05:03,066
+A narrow filament seems
+to cross right over it.
+
+86
+00:05:03,156 --> 00:05:04,778
+Are the two connected?
+
+87
+00:05:04,868 --> 00:05:07,727
+Honestly, the image alone can't tell us.
+
+88
+00:05:07,817 --> 00:05:12,213
+That's exactly the kind of question
+astronomers will chase next.
+
+89
+00:05:12,563 --> 00:05:15,465
+There's another puzzle
+near the cat's belly.
+
+90
+00:05:15,555 --> 00:05:20,227
+In Webb's near-infrared image,
+there's a faint, jet-like feature.
+
+91
+00:05:20,317 --> 00:05:23,390
+It could be gas blasted
+out by a young star.
+
+92
+00:05:23,480 --> 00:05:25,550
+Or it could be something else.
+
+93
+00:05:25,640 --> 00:05:28,051
+Its origin is uncertain.
+
+94
+00:05:28,401 --> 00:05:32,711
+And that uncertainty is what
+makes this image so valuable.
+
+95
+00:05:32,801 --> 00:05:34,679
+It isn't just beautiful.
+
+96
+00:05:34,769 --> 00:05:37,778
+It's a catalogue of open questions.
+
+97
+00:05:38,228 --> 00:05:43,733
+One quick warning: this is not the Cat's
+Paw Nebula, which Webb imaged last year.
+
+98
+00:05:43,823 --> 00:05:48,389
+That one sits in Scorpius,
+roughly 4,000 light-years away.
+
+99
+00:05:48,479 --> 00:05:52,191
+The Cat's Head is in
+Carina, nearly twice as far.
+
+100
+00:05:52,541 --> 00:05:54,334
+And how big is this scene?
+
+101
+00:05:54,424 --> 00:05:58,092
+Hubble's view is about
+2.4 arcminutes across,
+
+102
+00:05:58,132 --> 00:06:01,742
+which works out to around 5.5 light-years.
+
+103
+00:06:01,832 --> 00:06:05,843
+Light itself would need five
+and a half years to cross it.
+
+104
+00:06:06,193 --> 00:06:11,442
+And the light we're seeing left
+this place about 7,500 years ago.
+
+105
+00:06:11,532 --> 00:06:13,389
+Before the first cities.
+
+106
+00:06:13,479 --> 00:06:14,930
+Before writing.
+
+107
+00:06:15,020 --> 00:06:18,178
+It has been travelling
+toward us all that time.
+
+108
+00:06:30,900 --> 00:06:34,421
+Now for the part that makes
+this cat truly haunting.
+
+109
+00:06:35,071 --> 00:06:36,650
+It isn't permanent.
+
+110
+00:06:37,500 --> 00:06:40,722
+NASA and ESA are clear about this.
+
+111
+00:06:40,812 --> 00:06:43,565
+The Cat's Head is a temporary scene.
+
+112
+00:06:43,655 --> 00:06:47,662
+The same ultraviolet light and
+stellar winds that sculpted
+
+113
+00:06:47,702 --> 00:06:50,503
+its shape are still eating away at it.
+
+114
+00:06:50,853 --> 00:06:56,145
+The denser material inside the pillar
+resists erosion, at least for now.
+
+115
+00:06:56,695 --> 00:06:58,679
+Think about what that means.
+
+116
+00:06:58,769 --> 00:07:02,845
+The massive stars nearby are
+both sculptor and destroyer.
+
+117
+00:07:02,935 --> 00:07:07,415
+Their radiation helped carve the
+cat, and it will help dismantle it.
+
+118
+00:07:07,765 --> 00:07:12,054
+And yet, inside it, a young star
+may be quietly switching on.
+
+119
+00:07:12,144 --> 00:07:17,137
+The very cloud that's being destroyed
+may be the nursery of something new.
+
+120
+00:07:17,487 --> 00:07:23,247
+Creation and destruction, side by side,
+in a shape we happen to read as a face.
+
+121
+00:07:23,697 --> 00:07:25,149
+No creature.
+
+122
+00:07:25,239 --> 00:07:26,669
+No monster.
+
+123
+00:07:26,759 --> 00:07:29,362
+Just physics, light, and time.
+
+124
+00:07:29,452 --> 00:07:32,930
+And for one brief
+astronomical moment, a cat.
+
+125
+00:07:40,900 --> 00:07:45,078
+So the next time someone shows
+you a face in the stars, remember:
+
+126
+00:07:45,118 --> 00:07:48,837
+it's a star-forming cloud,
+being pulled apart by light.
+
+127
+00:07:49,187 --> 00:07:53,279
+Subscribe to Technical Talk India,
+and tell me in the comments:
+
+128
+00:07:53,319 --> 00:07:55,502
+what do you see in this nebula?
+

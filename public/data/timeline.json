@@ -1,0 +1,1276 @@
+{
+ "title": "Webb Just Revealed a Terrifying Cosmic Cat's Head",
+ "channel": "Technical Talk India",
+ "duration": 480,
+ "fps": 30,
+ "acts": [
+  {
+   "id": "hook",
+   "title": "Cinematic hook",
+   "start": 0,
+   "end": 20
+  },
+  {
+   "id": "intro",
+   "title": "The mystery",
+   "start": 20,
+   "end": 60
+  },
+  {
+   "id": "background",
+   "title": "Scientific background",
+   "start": 60,
+   "end": 150
+  },
+  {
+   "id": "main",
+   "title": "The discovery in 3D",
+   "start": 150,
+   "end": 270
+  },
+  {
+   "id": "details",
+   "title": "Fascinating details",
+   "start": 270,
+   "end": 390
+  },
+  {
+   "id": "revelation",
+   "title": "The biggest revelation",
+   "start": 390,
+   "end": 460
+  },
+  {
+   "id": "conclusion",
+   "title": "Conclusion and call to action",
+   "start": 460,
+   "end": 480
+  }
+ ],
+ "segments": [
+  {
+   "id": "h1",
+   "act": "hook",
+   "scene": "hook",
+   "start": 0.5,
+   "end": 5.236,
+   "text": "7,500 light-years away, something is staring back at us.",
+   "sentences": [
+    {
+     "start": 0.5,
+     "end": 5.236,
+     "say": "Seven and a half thousand light-years away, something is staring back at us.",
+     "show": "7,500 light-years away, something is staring back at us."
+    }
+   ]
+  },
+  {
+   "id": "h2",
+   "act": "hook",
+   "scene": "hook",
+   "start": 5.936,
+   "end": 11.024,
+   "text": "It has a head. Two pointed ears. And a single glowing eye.",
+   "sentences": [
+    {
+     "start": 5.936,
+     "end": 7.131,
+     "say": "It has a head.",
+     "show": "It has a head."
+    },
+    {
+     "start": 7.371,
+     "end": 8.885,
+     "say": "Two pointed ears.",
+     "show": "Two pointed ears."
+    },
+    {
+     "start": 9.125,
+     "end": 11.024,
+     "say": "And a single glowing eye.",
+     "show": "And a single glowing eye."
+    }
+   ]
+  },
+  {
+   "id": "h3",
+   "act": "hook",
+   "scene": "hook",
+   "start": 11.824,
+   "end": 16.709,
+   "text": "And the James Webb Space Telescope has just shown us what it really is.",
+   "sentences": [
+    {
+     "start": 11.824,
+     "end": 16.709,
+     "say": "And the James Webb Space Telescope has just shown us what it really is.",
+     "show": "And the James Webb Space Telescope has just shown us what it really is."
+    }
+   ]
+  },
+  {
+   "id": "i1",
+   "act": "intro",
+   "scene": "carina",
+   "start": 20.9,
+   "end": 33.897,
+   "text": "On October 29th, 2026, NASA and ESA released a new image from two of the greatest telescopes ever built. Hubble and Webb, looking at the very same patch of sky.",
+   "sentences": [
+    {
+     "start": 20.9,
+     "end": 29.903,
+     "say": "On October twenty-ninth, twenty twenty-six, NASA and E S A released a new image from two of the greatest telescopes ever built.",
+     "show": "On October 29th, 2026, NASA and ESA released a new image from two of the greatest telescopes ever built."
+    },
+    {
+     "start": 30.143,
+     "end": 33.897,
+     "say": "Hubble and Webb, looking at the very same patch of sky.",
+     "show": "Hubble and Webb, looking at the very same patch of sky."
+    }
+   ]
+  },
+  {
+   "id": "i2",
+   "act": "intro",
+   "scene": "carina",
+   "start": 34.397,
+   "end": 40.952,
+   "text": "Astronomers nicknamed it the Cat's Head Nebula. And once you see the cat, you can't unsee it.",
+   "sentences": [
+    {
+     "start": 34.397,
+     "end": 37.789,
+     "say": "Astronomers nicknamed it the Cat's Head Nebula.",
+     "show": "Astronomers nicknamed it the Cat's Head Nebula."
+    },
+    {
+     "start": 38.029,
+     "end": 40.952,
+     "say": "And once you see the cat, you can't unsee it.",
+     "show": "And once you see the cat, you can't unsee it."
+    }
+   ]
+  },
+  {
+   "id": "i3",
+   "act": "intro",
+   "scene": "carina",
+   "start": 41.452,
+   "end": 49.084,
+   "text": "A dark, narrow pillar of dust. A head turned aside. A tail trailing down. And that eye.",
+   "sentences": [
+    {
+     "start": 41.452,
+     "end": 43.671,
+     "say": "A dark, narrow pillar of dust.",
+     "show": "A dark, narrow pillar of dust."
+    },
+    {
+     "start": 43.911,
+     "end": 45.639,
+     "say": "A head turned aside.",
+     "show": "A head turned aside."
+    },
+    {
+     "start": 45.879,
+     "end": 47.713,
+     "say": "A tail trailing down.",
+     "show": "A tail trailing down."
+    },
+    {
+     "start": 47.953,
+     "end": 49.084,
+     "say": "And that eye.",
+     "show": "And that eye."
+    }
+   ]
+  },
+  {
+   "id": "i4",
+   "act": "intro",
+   "scene": "carina",
+   "start": 49.584,
+   "end": 58.805,
+   "text": "But this is no monster. It's something far stranger: a snapshot of stars being born, and of the forces tearing their birthplace apart.",
+   "sentences": [
+    {
+     "start": 49.584,
+     "end": 51.504,
+     "say": "But this is no monster.",
+     "show": "But this is no monster."
+    },
+    {
+     "start": 51.744,
+     "end": 58.805,
+     "say": "It's something far stranger: a snapshot of stars being born, and of the forces tearing their birthplace apart.",
+     "show": "It's something far stranger: a snapshot of stars being born, and of the forces tearing their birthplace apart."
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "act": "background",
+   "scene": "carina2",
+   "start": 60.9,
+   "end": 71.807,
+   "text": "First, where is it? The cat lives inside the Carina Nebula, about 7,500 light-years away, in the southern constellation Carina, the Keel.",
+   "sentences": [
+    {
+     "start": 60.9,
+     "end": 62.457,
+     "say": "First, where is it?",
+     "show": "First, where is it?"
+    },
+    {
+     "start": 62.697,
+     "end": 71.807,
+     "say": "The cat lives inside the Carina Nebula, about seven and a half thousand light-years away, in the southern constellation Carina, the Keel.",
+     "show": "The cat lives inside the Carina Nebula, about 7,500 light-years away, in the southern constellation Carina, the Keel."
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "act": "background",
+   "scene": "carina2",
+   "start": 72.107,
+   "end": 81.365,
+   "text": "The nebula is roughly 300 light-years across, and home to at least a dozen stars 50 to 100 times the mass of our Sun.",
+   "sentences": [
+    {
+     "start": 72.107,
+     "end": 81.365,
+     "say": "The nebula is roughly three hundred light-years across, and home to at least a dozen stars fifty to a hundred times the mass of our Sun.",
+     "show": "The nebula is roughly 300 light-years across, and home to at least a dozen stars 50 to 100 times the mass of our Sun."
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "act": "background",
+   "scene": "starbirth",
+   "start": 81.665,
+   "end": 91.767,
+   "text": "Here's the key idea. Stars form inside cold clouds of gas and dust. Gravity pulls clumps together, until a new star switches on.",
+   "sentences": [
+    {
+     "start": 81.665,
+     "end": 83.5,
+     "say": "Here's the key idea.",
+     "show": "Here's the key idea."
+    },
+    {
+     "start": 83.74,
+     "end": 87.345,
+     "say": "Stars form inside cold clouds of gas and dust.",
+     "show": "Stars form inside cold clouds of gas and dust."
+    },
+    {
+     "start": 87.585,
+     "end": 91.767,
+     "say": "Gravity pulls clumps together, until a new star switches on.",
+     "show": "Gravity pulls clumps together, until a new star switches on."
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "act": "background",
+   "scene": "starbirth",
+   "start": 92.067,
+   "end": 100.819,
+   "text": "But the hottest, most massive stars don't just shine. They blast out intense ultraviolet radiation and powerful winds.",
+   "sentences": [
+    {
+     "start": 92.067,
+     "end": 95.437,
+     "say": "But the hottest, most massive stars don't just shine.",
+     "show": "But the hottest, most massive stars don't just shine."
+    },
+    {
+     "start": 95.677,
+     "end": 100.819,
+     "say": "They blast out intense ultraviolet radiation and powerful winds.",
+     "show": "They blast out intense ultraviolet radiation and powerful winds."
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "act": "background",
+   "scene": "starbirth",
+   "start": 101.119,
+   "end": 108.932,
+   "text": "That radiation heats nearby gas until it literally evaporates. Astronomers call it photoevaporation.",
+   "sentences": [
+    {
+     "start": 101.119,
+     "end": 105.748,
+     "say": "That radiation heats nearby gas until it literally evaporates.",
+     "show": "That radiation heats nearby gas until it literally evaporates."
+    },
+    {
+     "start": 105.988,
+     "end": 108.932,
+     "say": "Astronomers call it photoevaporation.",
+     "show": "Astronomers call it photoevaporation."
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "act": "background",
+   "scene": "starbirth",
+   "start": 109.232,
+   "end": 117.307,
+   "text": "Thin gas vanishes quickly. Denser clumps resist longer. What's left are pillars, sculpted by light.",
+   "sentences": [
+    {
+     "start": 109.232,
+     "end": 111.451,
+     "say": "Thin gas vanishes quickly.",
+     "show": "Thin gas vanishes quickly."
+    },
+    {
+     "start": 111.691,
+     "end": 114.123,
+     "say": "Denser clumps resist longer.",
+     "show": "Denser clumps resist longer."
+    },
+    {
+     "start": 114.363,
+     "end": 117.307,
+     "say": "What's left are pillars, sculpted by light.",
+     "show": "What's left are pillars, sculpted by light."
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "act": "background",
+   "scene": "telescopes",
+   "start": 117.607,
+   "end": 129.223,
+   "text": "To see this scene properly, we need two kinds of vision. In visible light, dust is the problem. Tiny grains scatter and absorb it, so thick dust looks like a black wall.",
+   "sentences": [
+    {
+     "start": 117.607,
+     "end": 121.02,
+     "say": "To see this scene properly, we need two kinds of vision.",
+     "show": "To see this scene properly, we need two kinds of vision."
+    },
+    {
+     "start": 121.26,
+     "end": 123.969,
+     "say": "In visible light, dust is the problem.",
+     "show": "In visible light, dust is the problem."
+    },
+    {
+     "start": 124.209,
+     "end": 129.223,
+     "say": "Tiny grains scatter and absorb it, so thick dust looks like a black wall.",
+     "show": "Tiny grains scatter and absorb it, so thick dust looks like a black wall."
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "act": "background",
+   "scene": "dustdemo",
+   "start": 129.523,
+   "end": 137.528,
+   "text": "Webb is built for infrared. Longer wavelengths slip past many of those grains, so Webb can see where Hubble can't.",
+   "sentences": [
+    {
+     "start": 129.523,
+     "end": 131.699,
+     "say": "Webb is built for infrared.",
+     "show": "Webb is built for infrared."
+    },
+    {
+     "start": 131.939,
+     "end": 137.528,
+     "say": "Longer wavelengths slip past many of those grains, so Webb can see where Hubble can't.",
+     "show": "Longer wavelengths slip past many of those grains, so Webb can see where Hubble can't."
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "act": "background",
+   "scene": "dustdemo",
+   "start": 137.828,
+   "end": 144.916,
+   "text": "Near-infrared looks through the thinner dust. Mid-infrared sees the dust itself, glowing with warmth.",
+   "sentences": [
+    {
+     "start": 137.828,
+     "end": 140.857,
+     "say": "Near-infrared looks through the thinner dust.",
+     "show": "Near-infrared looks through the thinner dust."
+    },
+    {
+     "start": 141.097,
+     "end": 144.916,
+     "say": "Mid-infrared sees the dust itself, glowing with warmth.",
+     "show": "Mid-infrared sees the dust itself, glowing with warmth."
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "act": "background",
+   "scene": "dustdemo",
+   "start": 145.216,
+   "end": 149.232,
+   "text": "Three views. Three ways of seeing the same cat.",
+   "sentences": [
+    {
+     "start": 145.216,
+     "end": 146.347,
+     "say": "Three views.",
+     "show": "Three views."
+    },
+    {
+     "start": 146.587,
+     "end": 149.232,
+     "say": "Three ways of seeing the same cat.",
+     "show": "Three ways of seeing the same cat."
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "act": "main",
+   "scene": "hubbleview",
+   "start": 150.9,
+   "end": 160.335,
+   "text": "Start with Hubble. In visible light, the cat is almost completely opaque: a dark brown pillar of dust, blocking everything behind it.",
+   "sentences": [
+    {
+     "start": 150.9,
+     "end": 152.223,
+     "say": "Start with Hubble.",
+     "show": "Start with Hubble."
+    },
+    {
+     "start": 152.463,
+     "end": 160.335,
+     "say": "In visible light, the cat is almost completely opaque: a dark brown pillar of dust, blocking everything behind it.",
+     "show": "In visible light, the cat is almost completely opaque: a dark brown pillar of dust, blocking everything behind it."
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "act": "main",
+   "scene": "hubbleview",
+   "start": 160.835,
+   "end": 177.704,
+   "text": "Along its right edge runs a faint, hazy yellow rim. That's gas lit up and ionised by ultraviolet light from nearby massive stars. It's consistent with photoevaporation in action. The cat's skin is being stripped away.",
+   "sentences": [
+    {
+     "start": 160.835,
+     "end": 164.803,
+     "say": "Along its right edge runs a faint, hazy yellow rim.",
+     "show": "Along its right edge runs a faint, hazy yellow rim."
+    },
+    {
+     "start": 165.043,
+     "end": 170.952,
+     "say": "That's gas lit up and ionised by ultraviolet light from nearby massive stars.",
+     "show": "That's gas lit up and ionised by ultraviolet light from nearby massive stars."
+    },
+    {
+     "start": 171.192,
+     "end": 174.861,
+     "say": "It's consistent with photoevaporation in action.",
+     "show": "It's consistent with photoevaporation in action."
+    },
+    {
+     "start": 175.101,
+     "end": 177.704,
+     "say": "The cat's skin is being stripped away.",
+     "show": "The cat's skin is being stripped away."
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "act": "main",
+   "scene": "hubbleview",
+   "start": 178.204,
+   "end": 185.057,
+   "text": "And the glowing red eye? Astronomers think it may be a young star, still partly buried in dust.",
+   "sentences": [
+    {
+     "start": 178.204,
+     "end": 180.145,
+     "say": "And the glowing red eye?",
+     "show": "And the glowing red eye?"
+    },
+    {
+     "start": 180.385,
+     "end": 185.057,
+     "say": "Astronomers think it may be a young star, still partly buried in dust.",
+     "show": "Astronomers think it may be a young star, still partly buried in dust."
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "act": "main",
+   "scene": "hubbleview",
+   "start": 185.557,
+   "end": 200.331,
+   "text": "Hubble's filters pick out light from oxygen, hydrogen and sulfur. That's why the background shifts from blue and cyan at the top, to yellow, orange and red toward the bottom. It's a map of hot, excited gas.",
+   "sentences": [
+    {
+     "start": 185.557,
+     "end": 190.229,
+     "say": "Hubble's filters pick out light from oxygen, hydrogen and sulfur.",
+     "show": "Hubble's filters pick out light from oxygen, hydrogen and sulfur."
+    },
+    {
+     "start": 190.469,
+     "end": 197.445,
+     "say": "That's why the background shifts from blue and cyan at the top, to yellow, orange and red toward the bottom.",
+     "show": "That's why the background shifts from blue and cyan at the top, to yellow, orange and red toward the bottom."
+    },
+    {
+     "start": 197.685,
+     "end": 200.331,
+     "say": "It's a map of hot, excited gas.",
+     "show": "It's a map of hot, excited gas."
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "act": "main",
+   "scene": "nircamview",
+   "start": 200.831,
+   "end": 206.489,
+   "text": "Now switch to Webb's near-infrared camera. Watch what happens to the dust.",
+   "sentences": [
+    {
+     "start": 200.831,
+     "end": 204.052,
+     "say": "Now switch to Webb's near-infrared camera.",
+     "show": "Now switch to Webb's near-infrared camera."
+    },
+    {
+     "start": 204.292,
+     "end": 206.489,
+     "say": "Watch what happens to the dust.",
+     "show": "Watch what happens to the dust."
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "act": "main",
+   "scene": "nircamview",
+   "start": 207.089,
+   "end": 217.041,
+   "text": "The pillar becomes more transparent. Its complex surface structure appears. And around it, a dense scattering of stars, shown in blue and yellow.",
+   "sentences": [
+    {
+     "start": 207.089,
+     "end": 209.692,
+     "say": "The pillar becomes more transparent.",
+     "show": "The pillar becomes more transparent."
+    },
+    {
+     "start": 209.932,
+     "end": 212.449,
+     "say": "Its complex surface structure appears.",
+     "show": "Its complex surface structure appears."
+    },
+    {
+     "start": 212.689,
+     "end": 217.041,
+     "say": "And around it, a dense scattering of stars, shown in blue and yellow.",
+     "show": "And around it, a dense scattering of stars, shown in blue and yellow."
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "act": "main",
+   "scene": "nircamview",
+   "start": 217.541,
+   "end": 223.131,
+   "text": "Even a few faint background galaxies show up, seen partly through our own Milky Way.",
+   "sentences": [
+    {
+     "start": 217.541,
+     "end": 223.131,
+     "say": "Even a few faint background galaxies show up, seen partly through our own Milky Way.",
+     "show": "Even a few faint background galaxies show up, seen partly through our own Milky Way."
+    }
+   ]
+  },
+  {
+   "id": "m8",
+   "act": "main",
+   "scene": "nircamview",
+   "start": 223.631,
+   "end": 229.145,
+   "text": "And the eye? Still there. Still conspicuous, even in infrared.",
+   "sentences": [
+    {
+     "start": 223.631,
+     "end": 224.676,
+     "say": "And the eye?",
+     "show": "And the eye?"
+    },
+    {
+     "start": 224.916,
+     "end": 225.961,
+     "say": "Still there.",
+     "show": "Still there."
+    },
+    {
+     "start": 226.201,
+     "end": 229.145,
+     "say": "Still conspicuous, even in infrared.",
+     "show": "Still conspicuous, even in infrared."
+    }
+   ]
+  },
+  {
+   "id": "m9",
+   "act": "main",
+   "scene": "miriview",
+   "start": 229.645,
+   "end": 237.741,
+   "text": "Then comes mid-infrared, from Webb's MIRI instrument. Now we're not looking through the dust. We're looking at the dust.",
+   "sentences": [
+    {
+     "start": 229.645,
+     "end": 233.208,
+     "say": "Then comes mid-infrared, from Webb's Miri instrument.",
+     "show": "Then comes mid-infrared, from Webb's MIRI instrument."
+    },
+    {
+     "start": 233.448,
+     "end": 235.816,
+     "say": "Now we're not looking through the dust.",
+     "show": "Now we're not looking through the dust."
+    },
+    {
+     "start": 236.056,
+     "end": 237.741,
+     "say": "We're looking at the dust.",
+     "show": "We're looking at the dust."
+    }
+   ]
+  },
+  {
+   "id": "m10",
+   "act": "main",
+   "scene": "miriview",
+   "start": 238.241,
+   "end": 251.281,
+   "text": "Warm grains and carbon-based molecules glow, outlining delicate globules and strands on the cat's left side. Fragile structures, exposed to radiation from nearby massive stars.",
+   "sentences": [
+    {
+     "start": 238.241,
+     "end": 245.964,
+     "say": "Warm grains and carbon-based molecules glow, outlining delicate globules and strands on the cat's left side.",
+     "show": "Warm grains and carbon-based molecules glow, outlining delicate globules and strands on the cat's left side."
+    },
+    {
+     "start": 246.204,
+     "end": 251.281,
+     "say": "Fragile structures, exposed to radiation from nearby massive stars.",
+     "show": "Fragile structures, exposed to radiation from nearby massive stars."
+    }
+   ]
+  },
+  {
+   "id": "m11",
+   "act": "main",
+   "scene": "miriview",
+   "start": 251.781,
+   "end": 268.437,
+   "text": "The filament turns bluish gray. The background glows red. And the eye turns white. Those colours are assigned, by the way: MIRI's filters at 7.7, 11 and 15 micrometres are mapped to blue, green and red.",
+   "sentences": [
+    {
+     "start": 251.781,
+     "end": 254.149,
+     "say": "The filament turns bluish gray.",
+     "show": "The filament turns bluish gray."
+    },
+    {
+     "start": 254.389,
+     "end": 256.416,
+     "say": "The background glows red.",
+     "show": "The background glows red."
+    },
+    {
+     "start": 256.656,
+     "end": 258.448,
+     "say": "And the eye turns white.",
+     "show": "And the eye turns white."
+    },
+    {
+     "start": 258.688,
+     "end": 268.437,
+     "say": "Those colours are assigned, by the way: Miri's filters at seven point seven, eleven and fifteen micrometres are mapped to blue, green and red.",
+     "show": "Those colours are assigned, by the way: MIRI's filters at 7.7, 11 and 15 micrometres are mapped to blue, green and red."
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "act": "details",
+   "scene": "eye",
+   "start": 270.9,
+   "end": 273.332,
+   "text": "So let's zoom in on that eye.",
+   "sentences": [
+    {
+     "start": 270.9,
+     "end": 273.332,
+     "say": "So let's zoom in on that eye.",
+     "show": "So let's zoom in on that eye."
+    }
+   ]
+  },
+  {
+   "id": "d2",
+   "act": "details",
+   "scene": "eye",
+   "start": 273.932,
+   "end": 286.951,
+   "text": "If it is a young star, it's an infant. Stars like this form when a dense knot of gas collapses under its own gravity, wrapped in a cocoon of dust that hides the newborn from visible light.",
+   "sentences": [
+    {
+     "start": 273.932,
+     "end": 276.833,
+     "say": "If it is a young star, it's an infant.",
+     "show": "If it is a young star, it's an infant."
+    },
+    {
+     "start": 277.073,
+     "end": 286.951,
+     "say": "Stars like this form when a dense knot of gas collapses under its own gravity, wrapped in a cocoon of dust that hides the newborn from visible light.",
+     "show": "Stars like this form when a dense knot of gas collapses under its own gravity, wrapped in a cocoon of dust that hides the newborn from visible light."
+    }
+   ]
+  },
+  {
+   "id": "d3",
+   "act": "details",
+   "scene": "eye",
+   "start": 287.451,
+   "end": 299.173,
+   "text": "In Webb's mid-infrared image, just to the right of the pillar, there's another bright source. Yellow, against a reddish glow. It's likely an infant star too, embedded in dust.",
+   "sentences": [
+    {
+     "start": 287.451,
+     "end": 292.976,
+     "say": "In Webb's mid-infrared image, just to the right of the pillar, there's another bright source.",
+     "show": "In Webb's mid-infrared image, just to the right of the pillar, there's another bright source."
+    },
+    {
+     "start": 293.216,
+     "end": 295.392,
+     "say": "Yellow, against a reddish glow.",
+     "show": "Yellow, against a reddish glow."
+    },
+    {
+     "start": 295.632,
+     "end": 299.173,
+     "say": "It's likely an infant star too, embedded in dust.",
+     "show": "It's likely an infant star too, embedded in dust."
+    }
+   ]
+  },
+  {
+   "id": "d4",
+   "act": "details",
+   "scene": "eye",
+   "start": 299.673,
+   "end": 312.063,
+   "text": "A narrow filament seems to cross right over it. Are the two connected? Honestly, the image alone can't tell us. That's exactly the kind of question astronomers will chase next.",
+   "sentences": [
+    {
+     "start": 299.673,
+     "end": 302.916,
+     "say": "A narrow filament seems to cross right over it.",
+     "show": "A narrow filament seems to cross right over it."
+    },
+    {
+     "start": 303.156,
+     "end": 304.628,
+     "say": "Are the two connected?",
+     "show": "Are the two connected?"
+    },
+    {
+     "start": 304.868,
+     "end": 307.577,
+     "say": "Honestly, the image alone can't tell us.",
+     "show": "Honestly, the image alone can't tell us."
+    },
+    {
+     "start": 307.817,
+     "end": 312.063,
+     "say": "That's exactly the kind of question astronomers will chase next.",
+     "show": "That's exactly the kind of question astronomers will chase next."
+    }
+   ]
+  },
+  {
+   "id": "d5",
+   "act": "details",
+   "scene": "jet",
+   "start": 312.563,
+   "end": 327.901,
+   "text": "There's another puzzle near the cat's belly. In Webb's near-infrared image, there's a faint, jet-like feature. It could be gas blasted out by a young star. Or it could be something else. Its origin is uncertain.",
+   "sentences": [
+    {
+     "start": 312.563,
+     "end": 315.315,
+     "say": "There's another puzzle near the cat's belly.",
+     "show": "There's another puzzle near the cat's belly."
+    },
+    {
+     "start": 315.555,
+     "end": 320.077,
+     "say": "In Webb's near-infrared image, there's a faint, jet-like feature.",
+     "show": "In Webb's near-infrared image, there's a faint, jet-like feature."
+    },
+    {
+     "start": 320.317,
+     "end": 323.24,
+     "say": "It could be gas blasted out by a young star.",
+     "show": "It could be gas blasted out by a young star."
+    },
+    {
+     "start": 323.48,
+     "end": 325.4,
+     "say": "Or it could be something else.",
+     "show": "Or it could be something else."
+    },
+    {
+     "start": 325.64,
+     "end": 327.901,
+     "say": "Its origin is uncertain.",
+     "show": "Its origin is uncertain."
+    }
+   ]
+  },
+  {
+   "id": "d6",
+   "act": "details",
+   "scene": "jet",
+   "start": 328.401,
+   "end": 337.628,
+   "text": "And that uncertainty is what makes this image so valuable. It isn't just beautiful. It's a catalogue of open questions.",
+   "sentences": [
+    {
+     "start": 328.401,
+     "end": 332.561,
+     "say": "And that uncertainty is what makes this image so valuable.",
+     "show": "And that uncertainty is what makes this image so valuable."
+    },
+    {
+     "start": 332.801,
+     "end": 334.529,
+     "say": "It isn't just beautiful.",
+     "show": "It isn't just beautiful."
+    },
+    {
+     "start": 334.769,
+     "end": 337.628,
+     "say": "It's a catalogue of open questions.",
+     "show": "It's a catalogue of open questions."
+    }
+   ]
+  },
+  {
+   "id": "d7",
+   "act": "details",
+   "scene": "galaxymap",
+   "start": 338.228,
+   "end": 352.041,
+   "text": "One quick warning: this is not the Cat's Paw Nebula, which Webb imaged last year. That one sits in Scorpius, roughly 4,000 light-years away. The Cat's Head is in Carina, nearly twice as far.",
+   "sentences": [
+    {
+     "start": 338.228,
+     "end": 343.583,
+     "say": "One quick warning: this is not the Cat's Paw Nebula, which Webb imaged last year.",
+     "show": "One quick warning: this is not the Cat's Paw Nebula, which Webb imaged last year."
+    },
+    {
+     "start": 343.823,
+     "end": 348.239,
+     "say": "That one sits in Scorpius, roughly four thousand light-years away.",
+     "show": "That one sits in Scorpius, roughly 4,000 light-years away."
+    },
+    {
+     "start": 348.479,
+     "end": 352.041,
+     "say": "The Cat's Head is in Carina, nearly twice as far.",
+     "show": "The Cat's Head is in Carina, nearly twice as far."
+    }
+   ]
+  },
+  {
+   "id": "d8",
+   "act": "details",
+   "scene": "scale",
+   "start": 352.541,
+   "end": 365.693,
+   "text": "And how big is this scene? Hubble's view is about 2.4 arcminutes across, which works out to around 5.5 light-years. Light itself would need five and a half years to cross it.",
+   "sentences": [
+    {
+     "start": 352.541,
+     "end": 354.184,
+     "say": "And how big is this scene?",
+     "show": "And how big is this scene?"
+    },
+    {
+     "start": 354.424,
+     "end": 361.592,
+     "say": "Hubble's view is about two point four arcminutes across, which works out to around five and a half light-years.",
+     "show": "Hubble's view is about 2.4 arcminutes across, which works out to around 5.5 light-years."
+    },
+    {
+     "start": 361.832,
+     "end": 365.693,
+     "say": "Light itself would need five and a half years to cross it.",
+     "show": "Light itself would need five and a half years to cross it."
+    }
+   ]
+  },
+  {
+   "id": "d9",
+   "act": "details",
+   "scene": "scale",
+   "start": 366.193,
+   "end": 378.028,
+   "text": "And the light we're seeing left this place about 7,500 years ago. Before the first cities. Before writing. It has been travelling toward us all that time.",
+   "sentences": [
+    {
+     "start": 366.193,
+     "end": 371.292,
+     "say": "And the light we're seeing left this place about seven and a half thousand years ago.",
+     "show": "And the light we're seeing left this place about 7,500 years ago."
+    },
+    {
+     "start": 371.532,
+     "end": 373.239,
+     "say": "Before the first cities.",
+     "show": "Before the first cities."
+    },
+    {
+     "start": 373.479,
+     "end": 374.78,
+     "say": "Before writing.",
+     "show": "Before writing."
+    },
+    {
+     "start": 375.02,
+     "end": 378.028,
+     "say": "It has been travelling toward us all that time.",
+     "show": "It has been travelling toward us all that time."
+    }
+   ]
+  },
+  {
+   "id": "r1",
+   "act": "revelation",
+   "scene": "erosion",
+   "start": 390.9,
+   "end": 394.271,
+   "text": "Now for the part that makes this cat truly haunting.",
+   "sentences": [
+    {
+     "start": 390.9,
+     "end": 394.271,
+     "say": "Now for the part that makes this cat truly haunting.",
+     "show": "Now for the part that makes this cat truly haunting."
+    }
+   ]
+  },
+  {
+   "id": "r2",
+   "act": "revelation",
+   "scene": "erosion",
+   "start": 395.071,
+   "end": 396.5,
+   "text": "It isn't permanent.",
+   "sentences": [
+    {
+     "start": 395.071,
+     "end": 396.5,
+     "say": "It isn't permanent.",
+     "show": "It isn't permanent."
+    }
+   ]
+  },
+  {
+   "id": "r3",
+   "act": "revelation",
+   "scene": "erosion",
+   "start": 397.5,
+   "end": 410.353,
+   "text": "NASA and ESA are clear about this. The Cat's Head is a temporary scene. The same ultraviolet light and stellar winds that sculpted its shape are still eating away at it.",
+   "sentences": [
+    {
+     "start": 397.5,
+     "end": 400.572,
+     "say": "NASA and E S A are clear about this.",
+     "show": "NASA and ESA are clear about this."
+    },
+    {
+     "start": 400.812,
+     "end": 403.415,
+     "say": "The Cat's Head is a temporary scene.",
+     "show": "The Cat's Head is a temporary scene."
+    },
+    {
+     "start": 403.655,
+     "end": 410.353,
+     "say": "The same ultraviolet light and stellar winds that sculpted its shape are still eating away at it.",
+     "show": "The same ultraviolet light and stellar winds that sculpted its shape are still eating away at it."
+    }
+   ]
+  },
+  {
+   "id": "r4",
+   "act": "revelation",
+   "scene": "erosion",
+   "start": 410.853,
+   "end": 415.995,
+   "text": "The denser material inside the pillar resists erosion, at least for now.",
+   "sentences": [
+    {
+     "start": 410.853,
+     "end": 415.995,
+     "say": "The denser material inside the pillar resists erosion, at least for now.",
+     "show": "The denser material inside the pillar resists erosion, at least for now."
+    }
+   ]
+  },
+  {
+   "id": "r5",
+   "act": "revelation",
+   "scene": "erosion2",
+   "start": 416.695,
+   "end": 427.265,
+   "text": "Think about what that means. The massive stars nearby are both sculptor and destroyer. Their radiation helped carve the cat, and it will help dismantle it.",
+   "sentences": [
+    {
+     "start": 416.695,
+     "end": 418.529,
+     "say": "Think about what that means.",
+     "show": "Think about what that means."
+    },
+    {
+     "start": 418.769,
+     "end": 422.695,
+     "say": "The massive stars nearby are both sculptor and destroyer.",
+     "show": "The massive stars nearby are both sculptor and destroyer."
+    },
+    {
+     "start": 422.935,
+     "end": 427.265,
+     "say": "Their radiation helped carve the cat, and it will help dismantle it.",
+     "show": "Their radiation helped carve the cat, and it will help dismantle it."
+    }
+   ]
+  },
+  {
+   "id": "r6",
+   "act": "revelation",
+   "scene": "erosion2",
+   "start": 427.765,
+   "end": 436.987,
+   "text": "And yet, inside it, a young star may be quietly switching on. The very cloud that's being destroyed may be the nursery of something new.",
+   "sentences": [
+    {
+     "start": 427.765,
+     "end": 431.904,
+     "say": "And yet, inside it, a young star may be quietly switching on.",
+     "show": "And yet, inside it, a young star may be quietly switching on."
+    },
+    {
+     "start": 432.144,
+     "end": 436.987,
+     "say": "The very cloud that's being destroyed may be the nursery of something new.",
+     "show": "The very cloud that's being destroyed may be the nursery of something new."
+    }
+   ]
+  },
+  {
+   "id": "r7",
+   "act": "revelation",
+   "scene": "erosion2",
+   "start": 437.487,
+   "end": 443.097,
+   "text": "Creation and destruction, side by side, in a shape we happen to read as a face.",
+   "sentences": [
+    {
+     "start": 437.487,
+     "end": 443.097,
+     "say": "Creation and destruction, side by side, in a shape we happen to read as a face.",
+     "show": "Creation and destruction, side by side, in a shape we happen to read as a face."
+    }
+   ]
+  },
+  {
+   "id": "r8",
+   "act": "revelation",
+   "scene": "erosion2",
+   "start": 443.697,
+   "end": 452.78,
+   "text": "No creature. No monster. Just physics, light, and time. And for one brief astronomical moment, a cat.",
+   "sentences": [
+    {
+     "start": 443.697,
+     "end": 444.999,
+     "say": "No creature.",
+     "show": "No creature."
+    },
+    {
+     "start": 445.239,
+     "end": 446.519,
+     "say": "No monster.",
+     "show": "No monster."
+    },
+    {
+     "start": 446.759,
+     "end": 449.212,
+     "say": "Just physics, light, and time.",
+     "show": "Just physics, light, and time."
+    },
+    {
+     "start": 449.452,
+     "end": 452.78,
+     "say": "And for one brief astronomical moment, a cat.",
+     "show": "And for one brief astronomical moment, a cat."
+    }
+   ]
+  },
+  {
+   "id": "c1",
+   "act": "conclusion",
+   "scene": "outro",
+   "start": 460.9,
+   "end": 468.687,
+   "text": "So the next time someone shows you a face in the stars, remember: it's a star-forming cloud, being pulled apart by light.",
+   "sentences": [
+    {
+     "start": 460.9,
+     "end": 468.687,
+     "say": "So the next time someone shows you a face in the stars, remember: it's a star-forming cloud, being pulled apart by light.",
+     "show": "So the next time someone shows you a face in the stars, remember: it's a star-forming cloud, being pulled apart by light."
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "act": "conclusion",
+   "scene": "outro",
+   "start": 469.187,
+   "end": 475.352,
+   "text": "Subscribe to Technical Talk India, and tell me in the comments: what do you see in this nebula?",
+   "sentences": [
+    {
+     "start": 469.187,
+     "end": 475.352,
+     "say": "Subscribe to Technical Talk India, and tell me in the comments: what do you see in this nebula?",
+     "show": "Subscribe to Technical Talk India, and tell me in the comments: what do you see in this nebula?"
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 20
+  },
+  {
+   "id": "carina",
+   "start": 20,
+   "end": 60
+  },
+  {
+   "id": "carina2",
+   "start": 60,
+   "end": 81.315
+  },
+  {
+   "id": "starbirth",
+   "start": 81.315,
+   "end": 117.257
+  },
+  {
+   "id": "telescopes",
+   "start": 117.257,
+   "end": 129.173
+  },
+  {
+   "id": "dustdemo",
+   "start": 129.173,
+   "end": 150
+  },
+  {
+   "id": "hubbleview",
+   "start": 150,
+   "end": 200.481
+  },
+  {
+   "id": "nircamview",
+   "start": 200.481,
+   "end": 229.295
+  },
+  {
+   "id": "miriview",
+   "start": 229.295,
+   "end": 270
+  },
+  {
+   "id": "eye",
+   "start": 270,
+   "end": 312.213
+  },
+  {
+   "id": "jet",
+   "start": 312.213,
+   "end": 337.878
+  },
+  {
+   "id": "galaxymap",
+   "start": 337.878,
+   "end": 352.191
+  },
+  {
+   "id": "scale",
+   "start": 352.191,
+   "end": 390
+  },
+  {
+   "id": "erosion",
+   "start": 390,
+   "end": 416.345
+  },
+  {
+   "id": "erosion2",
+   "start": 416.345,
+   "end": 460
+  },
+  {
+   "id": "outro",
+   "start": 460,
+   "end": 480
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+[
+ {
+  "time": 0.2,
+  "file": "sub_drop.wav",
+  "gain": 0.9
+ },
+ {
+  "time": 19.1,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 20.0,
+  "file": "shimmer.wav",
+  "gain": 0.6
+ },
+ {
+  "time": 59.1,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 80.415,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 116.357,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 117.257,
+  "file": "ping.wav",
+  "gain": 0.5
+ },
+ {
+  "time": 128.273,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 129.173,
+  "file": "shimmer.wav",
+  "gain": 0.5
+ },
+ {
+  "time": 149.1,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 150.0,
+  "file": "click.wav",
+  "gain": 0.7
+ },
+ {
+  "time": 199.581,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 200.481,
+  "file": "click.wav",
+  "gain": 0.7
+ },
+ {
+  "time": 228.395,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 229.295,
+  "file": "click.wav",
+  "gain": 0.7
+ },
+ {
+  "time": 266.4,
+  "file": "riser.wav",
+  "gain": 0.7
+ },
+ {
+  "time": 269.1,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 270.0,
+  "file": "impact.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 311.313,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 336.978,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 351.291,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 386.2,
+  "file": "riser.wav",
+  "gain": 0.8
+ },
+ {
+  "time": 389.1,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 390.0,
+  "file": "impact.wav",
+  "gain": 0.9
+ },
+ {
+  "time": 415.445,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 428.765,
+  "file": "shimmer.wav",
+  "gain": 0.8
+ },
+ {
+  "time": 459.1,
+  "file": "whoosh.wav",
+  "gain": 0.55
+ },
+ {
+  "time": 460.0,
+  "file": "shimmer.wav",
+  "gain": 0.6
+ },
+ {
+  "time": 474.0,
+  "file": "ping.wav",
+  "gain": 0.5
+ }
+]
