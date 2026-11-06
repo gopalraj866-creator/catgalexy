@@ -7,9 +7,15 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 A="$ROOT/audio"; OUT="$ROOT/build/audio"; mkdir -p "$OUT/stems"
 NAR="$A/narration/narration.wav"; MUS="$A/music/background_music.mp3"
 SFX="$A/sound-effects/sfx_track.flac"; AMB="$A/sound-effects/ambience.flac"
-for f in "$NAR" "$MUS" "$SFX" "$AMB"; do [ -f "$f" ] || { echo "missing $f - run: python3 scripts/synth-audio.py / generate-narration.py" >&2; exit 1; }; done
 LOG() { echo "[audio $(date +%T)] $*"; }
-
+# --- self-healing inputs: the big lossless files may not be in the repo ---
+if [ ! -f "$NAR" ]; then
+  for alt in "$A/narration/narration.flac" "$A/narration/narration.mp3"; do
+    if [ -f "$alt" ]; then LOG "narration.wav missing - rebuilding from $(basename "$alt")"; ffmpeg -y -loglevel error -i "$alt" -ar 48000 -c:a pcm_s16le "$NAR"; break; fi
+  done
+fi
+if [ ! -f "$SFX" ] || [ ! -f "$AMB" ]; then LOG "SFX/ambience stems missing - synthesising (needs python3-numpy)"; python3 "$ROOT/scripts/synth-audio.py"; fi
+for f in "$NAR" "$MUS" "$SFX" "$AMB"; do [ -f "$f" ] || { echo "missing $f (need audio/narration/narration.wav|.flac|.mp3 and audio/music/background_music.mp3)" >&2; exit 1; }; done
 LOG "mixing (duck music under narration with sidechain compression)"
 GRAPH="
 [0:a]aresample=48000,aformat=channel_layouts=stereo,asplit=2[nar][nsc];
